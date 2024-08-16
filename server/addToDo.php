@@ -6,7 +6,15 @@ $list = json_decode($string);
 /* var_dump($string); */
 
 
-
+//logica e manipolazione json
+//Se in post mi viene inviata la chiave toDoItem aggiorno il json
+if (isset($_POST['toDoItem'])) {
+    $toDoItem = $_POST['toDoItem'];
+    //aggiungo l'elemento alla lista
+    $list[] = $toDoItem;
+    //sovrascrivo il json esterno con la lista aggiornata
+    file_put_contents('toDo.json', json_encode($list));
+}
 
 
 

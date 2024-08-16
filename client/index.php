@@ -19,7 +19,7 @@
                     <li v-for="(task,index) in list" :key="index">{{task.text}} <a>X</a></li>
                 </ul>
                 <hr>
-                <input type="text" placeholder="Inserisci una nuova task">
+                <input @keyup.enter="updateList" v-model.trim="toDoItem" type="text" placeholder="Inserisci una nuova task">
                 <button type="submit">Aggiungi</button>
             </div>
         </div>
