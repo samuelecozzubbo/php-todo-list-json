@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* List style */
+
+.wrapper{
+    background-color: #001632;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.app-list{
+    background-color: lightgray;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+}
