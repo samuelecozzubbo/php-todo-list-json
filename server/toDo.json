@@ -1,0 +1,17 @@
+[
+    {
+        "text": "Buy groceries",
+        "completed": false,
+        "description": "Remember to buy milk and eggs"
+    },
+    {
+        "text": "Walk the dog",
+        "completed": true,
+        "description": "Walk around the park"
+    },
+    {
+        "text": "Read a book",
+        "completed": false,
+        "description": ""
+    }
+]
